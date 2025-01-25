@@ -2363,10 +2363,22 @@ nav{
     padding: 0.5rem;
     position: absolute; /* Position the button absolutely */
     top: -12px; /* Adjust top position */
-    right: 620px; /* Adjust right position */
+    right: 400px; /* Adjust right position */
     z-index: 1000; /* Ensure it's above other content */
   }
-  /* Show the close button only in mobile view */
+  /* Show the close button only in mobile view */  
+@media (max-width: 500px) {
+    .navbar-close-btn {
+      display: block;
+    }
+    .logo_digi {
+        margin-right: 100px;
+        margin-bottom: -20px;
+    }
+    .header_top_left{
+        margin-top: 100px;
+    }
+  }
   @media (max-width: 991.98px) {
     .navbar-close-btn {
       display: block;
@@ -2379,4 +2391,6 @@ nav{
         margin-top: 20px;
     }
   }
+
+
 
