@@ -2368,6 +2368,10 @@ nav{
   }
   /* Show the close button only in mobile view */  
 @media (max-width: 500px) {
+    .carousel{
+        margin-top: 200px;
+    }
+
     .navbar-close-btn {
       display: block;
     }
@@ -2380,6 +2384,15 @@ nav{
     }
   }
   @media (max-width: 991.98px) {
+    .scroll-container{
+        margin-top: 20px;
+    }
+    .container_story_section{
+        display: none;
+    }
+    .container_part6{
+        display: none;
+    }
     .navbar-close-btn {
       display: block;
     }
